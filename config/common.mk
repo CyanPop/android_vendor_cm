@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librsjni
 
+# Omni Apps
+PRODUCT_PACKAGES += \
+    OmniSwitch
+
 # Custom CyanPop packages
 PRODUCT_PACKAGES += \
     Launcher3 \
