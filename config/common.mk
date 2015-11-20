@@ -145,6 +145,7 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     CMFileManager \
     Eleven \
+    CyanPopOTA \
     LockClock \
     CMUpdater \
     CyanogenSetupWizard \
