@@ -261,7 +261,7 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(CYANPOP_VERSION) \
-    ro.cyanpop.version=$(VERSION)-$(CYANPOP_BUILDTYPE) \
+    ro.cyanpop.version=$(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-$(CYANPOP_BUILDTYPE)-$(shell date -u +%Y%m%d) \
     ro.ota.version=$(TARGET_PRODUCT)-$(CYANPOP_BRANCH)-$(VERSION)-NIGHTLY-$(shell date -u +%Y%m%d)
 
 -include vendor/cm-priv/keys/keys.mk
